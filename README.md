@@ -29,28 +29,10 @@ SQL页面" href="#sqlpage" _mstaria-label="318032" _msthash="293"><svg class="oc
     END <span class="pl-k">as</span> color,
     description, icon, active
 <span class="pl-k">FROM</span> website;</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="SELECT 
-    'list' as component,
-    'Popular websites' as title;
-SELECT 
-    name as title,
-    url as link,
-    CASE type
-      WHEN 1 THEN 'blue'
-      ELSE 'red'
-    END as color,
-    description, icon, active
-FROM website;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+     
   </div></div>
 </td><td>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/sqlpage/SQLPage/blob/main/docs/demo-list.png"><img src="/sqlpage/SQLPage/raw/main/docs/demo-list.png" alt="SQLPage 列表组件" style="max-width: 100%;" _mstalt="452569" _msthash="305"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/sqlpage/SQLPage/blob/main/docs/demo-list.png"><img src="https://github.com/sqlpage/SQLPage/raw/main/docs/demo-list.png" alt="SQLPage 列表组件" style="max-width: 100%;" _mstalt="452569" _msthash="305"></a></p>
 </td></tr>
 <tr>
 <td>
@@ -64,26 +46,10 @@ FROM website;" tabindex="0" role="button">
     <span class="pl-c1">SUM</span>(revenue) <span class="pl-k">AS</span> y
 <span class="pl-k">FROM</span> finances
 <span class="pl-k">GROUP BY</span> quarter</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="SELECT
-  'chart' as component,
-  'Quarterly Revenue' as title,
-  'area' as type;
-
-SELECT
-    quarter AS x,
-    SUM(revenue) AS y
-FROM finances
-GROUP BY quarter" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 </td><td>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/sqlpage/SQLPage/blob/main/docs/demo-graph.png"><img src="/sqlpage/SQLPage/raw/main/docs/demo-graph.png" alt="SQLPage 列表组件" style="max-width: 100%;" _mstalt="452569" _msthash="306"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/sqlpage/SQLPage/blob/main/docs/demo-graph.png"><img src="https://github.com/sqlpage/SQLPage/raw/main/docs/demo-graph.png" alt="SQLPage 列表组件" style="max-width: 100%;" _mstalt="452569" _msthash="306"></a></p>
 </td></tr>
 <tr>
 <td>
@@ -100,29 +66,10 @@ GROUP BY quarter" tabindex="0" role="button">
 <span class="pl-k">INSERT INTO</span> user
 <span class="pl-k">SELECT</span> $first_name, $last_name, $birth_date
 <span class="pl-k">WHERE</span> $first_name <span class="pl-k">IS NOT NULL</span>;</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="SELECT
-    'form' as component,
-    'User' as title,
-    'Create new user' as validate;
-
-SELECT
-    name, type, placeholder,
-    required, description
-FROM user_form;
-
-INSERT INTO user
-SELECT $first_name, $last_name, $birth_date
-WHERE $first_name IS NOT NULL;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 </td><td>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/sqlpage/SQLPage/blob/main/docs/demo-form.png"><img src="/sqlpage/SQLPage/raw/main/docs/demo-form.png" alt="SQLPage 列表组件" style="max-width: 100%;" _mstalt="452569" _msthash="307"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/sqlpage/SQLPage/blob/main/docs/demo-form.png"><img src="https://github.com/sqlpage/SQLPage/raw/main/docs/demo-form.png" alt="SQLPage 列表组件" style="max-width: 100%;" _mstalt="452569" _msthash="307"></a></p>
 </td></tr>
 <tr>
 <td>
@@ -147,37 +94,10 @@ WHERE $first_name IS NOT NULL;" tabindex="0" role="button">
 <span class="pl-k">select</span>
   <span class="pl-s"><span class="pl-pds">'</span>text<span class="pl-pds">'</span></span> <span class="pl-k">as</span> component,
   <span class="pl-c1">sqlpage</span>.<span class="pl-c1">read_file_as_text</span>(<span class="pl-s"><span class="pl-pds">'</span>footer.md<span class="pl-pds">'</span></span>) <span class="pl-k">as</span> contents_md</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="select 'tab' as component, true as center;
-select 'Show all cards' as title, '?' as link,
-  $tab is null as active;
-select
-  format('Show %s cards', color) as title,
-  format('?tab=%s', color) as link,
-  $tab=color as active
-from tab_example_cards
-group by color; 
-
-
-select 'card' as component;
-select
-  title, description, color
-  image_url as top_image, link
-from tab_example_cards
-where $tab is null or $tab = color;
-
-select
-  'text' as component,
-  sqlpage.read_file_as_text('footer.md') as contents_md" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+  
   </div></div>
 </td><td>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/sqlpage/SQLPage/blob/main/docs/cards.png"><img src="/sqlpage/SQLPage/raw/main/docs/cards.png" alt="卡片组件 SQL 示例" style="max-width: 100%;" _mstalt="581295" _msthash="308"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/sqlpage/SQLPage/blob/main/docs/cards.png"><img src="https://github.com/sqlpage/SQLPage/raw/main/docs/cards.png" alt="卡片组件 SQL 示例" style="max-width: 100%;" _mstalt="581295" _msthash="308"></a></p>
 </td></tr>
 </tbody>
 </table></markdown-accessiblity-table>
@@ -206,11 +126,11 @@ select
 <li>(<code>"$(pwd):/var/www"</code><font _mstmutation="1" _msttexthash="120367364" _msthash="329">允许 SQLPlayer 从当前工作目录运行 SQL 文件）</font></li>
 </ul>
 </li>
-<li _msttexthash="94203603" _msthash="330">使用<a href="/sqlpage/SQLPage/blob/main/index.sql" _istranslated="1">此示例</a>中的内容创建一个名为 index.sql 的文件</li>
+<li _msttexthash="94203603" _msthash="330">使用<a href="https://github.com/sqlpage/SQLPage/blob/main/index.sql" _istranslated="1">此示例</a>中的内容创建一个名为 index.sql 的文件</li>
 <li _msttexthash="23440729" _msthash="331">在浏览器中打开 <a href="https://localhost:8080" rel="nofollow" _istranslated="1">https://localhost:8080</a></li>
 <li><font _mstmutation="1" _msttexthash="469481103" _msthash="332">可选地，你也可以挂载一个包含 sqlpage 配置文件
 自定义组件和迁移
-（请参阅 <a href="/sqlpage/SQLPage/blob/main/configuration.md" _mstmutation="1" _istranslated="1">configuration.md</a>）添加到容器中。</font><code>/etc/sqlpage</code><ul dir="auto">
+（请参阅 <a href="https://github.com/sqlpage/SQLPage/blob/main/configuration.md" _mstmutation="1" _istranslated="1">configuration.md</a>）添加到容器中。</font><code>/etc/sqlpage</code><ul dir="auto">
 <li><font _mstmutation="1" _msttexthash="42947879" _msthash="333">例如，您可以使用：</font><ul dir="auto">
 <li><code>docker run -it --name sqlpage -p 8080:8080 --volume "$(pwd)/source:/var/www" --volume "$(pwd)/configuration:/etc/sqlpage:ro" --rm lovasoa/sqlpage</code></li>
 </ul>
